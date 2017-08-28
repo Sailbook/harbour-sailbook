@@ -173,10 +173,6 @@
         <translation>Powiadomienia</translation>
     </message>
     <message>
-        <source>Sailbook will send you notifications when you have a new message, a new notification or a friend request.</source>
-        <translation>Sailbook będzie wysyłał powiadomienia kiedy dostaniesz nową wiadomość, nowe powiadomienie lub zaproszenie do znajomych.</translation>
-    </message>
-    <message>
         <source>Opening external link in</source>
         <translation>Owieranie zewnętrzengo odnośnika w</translation>
     </message>
@@ -241,16 +237,8 @@
         <translation>Włącz natywny odtwarzacz wideo</translation>
     </message>
     <message>
-        <source>will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
-        <translation>otworzy filmy Facebook i YouTube w swoim rodzimym odtwarzaczu wideo. Jeśli ta opcja jest wyłączona, zostaną otwarte w zewnętrznej przeglądarce.</translation>
-    </message>
-    <message>
         <source>Enable nightmode</source>
         <translation>Włacz tryb nocny</translation>
-    </message>
-    <message>
-        <source>will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
-        <translation>użyje ciemnych kolorów w celu zmniejszego zmęczenia oczu podczas przwglądania Facebook&apos;a w ciemności.</translation>
     </message>
     <message>
         <source>Back button in</source>
@@ -334,6 +322,18 @@
     </message>
     <message>
         <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 will send you notifications when you have a new message, a new notification or a friend request.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

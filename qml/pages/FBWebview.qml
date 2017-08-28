@@ -76,6 +76,7 @@ Item {
         PullDownMenu {
             backgroundColor: Util.getBackgroundColor(settings.theme)
             highlightColor: Util.getHighlightColor(settings.theme)
+            enabled: !webview.loading
 
             MenuItem {
                 color: Util.getPrimaryColor(settings.theme)
@@ -115,5 +116,5 @@ Item {
 
 
     // Loadscreen
-    LoadscreenWebview {}
+    LoadscreenWebview { id: loadScreen }
 }
