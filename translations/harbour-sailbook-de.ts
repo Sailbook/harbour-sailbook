@@ -24,10 +24,6 @@
         <translation>Entwickler</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Mit PayPal spenden</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Version</translation>
     </message>
@@ -36,16 +32,40 @@
         <translation>Icons</translation>
     </message>
     <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Sailbook Icons erstellt von Alain Molteni.</translation>
-    </message>
-    <message>
         <source>Translators</source>
         <translation>Übersetzer</translation>
     </message>
     <message>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation>Sailbook Icons erstellt von Alain Molteni.</translation>
+    </message>
+    <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>ist freie Software gemäß den Bedingungen der GNU General Public License (GPL) Version 3 oder neuer.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Übersetzungen</translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation>Telegramm-Sailbook-Gruppe</translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation>Rudi Timmermans</translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation>Dylan Van Assche</translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation>Mit PayPal spenden</translation>
     </message>
 </context>
 <context>
@@ -288,12 +308,51 @@
         <source>Show Facebook logout pulldown menu</source>
         <translation>Facebook Abmeldeoption in Pulley-Menü anzeigen</translation>
     </message>
+    <message>
+        <source>Ambience</source>
+        <translation>Ambience</translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation>Facebook</translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation>Aktionsmenü</translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation>Menüleiste</translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
         <translation>Verbinden...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Übersetzungsplatform</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Übersetzer</translation>
     </message>
 </context>
 <context>

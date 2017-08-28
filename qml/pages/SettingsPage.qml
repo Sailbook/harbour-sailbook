@@ -6,6 +6,7 @@ Dialog {
 
     onAccepted: {
         settings.enableNotifications = notifications.checked
+        settings.priorityFeed = priorityFeed.currentIndex
         settings.showFeed = showFeed.checked
         settings.showFriends = showFriends.checked
         settings.showMessages = showMessages.checked
@@ -45,8 +46,8 @@ Dialog {
                 label: qsTr("Theme")
                 currentIndex: settings.theme
                 menu: ContextMenu {
-                    MenuItem { text: "Ambience" }
-                    MenuItem { text: "Facebook" }
+                    MenuItem { text: qsTr("Ambience") }
+                    MenuItem { text: qsTr("Facebook") }
                 }
             }
 
@@ -54,7 +55,7 @@ Dialog {
                 id: enableNightmode
                 text: qsTr("Enable nightmode")
                 checked: settings.enableNightmode
-                description: "Sailbook " + qsTr("will use dark colors to reduce eye strain while browsing Facebook in the dark.")
+                description: qsTr("%1 will use dark colors to reduce eye strain while browsing Facebook in the dark.").arg("Sailbook")
             }
 
             ComboBox {
@@ -62,8 +63,18 @@ Dialog {
                 label: qsTr("Back button in")
                 currentIndex: settings.placeBack
                 menu: ContextMenu {
-                    MenuItem { text: "Pulldown menu" }
-                    MenuItem { text: "Menu bar" }
+                    MenuItem { text: qsTr("Pulldown menu") }
+                    MenuItem { text: qsTr("Menu bar") }
+                }
+            }
+
+            ComboBox {
+                id: priorityFeed
+                label: qsTr("Feed priority")
+                currentIndex: settings.priorityFeed
+                menu: ContextMenu {
+                    MenuItem { text: qsTr("Most recent") }
+                    MenuItem { text: qsTr("Top stories") }
                 }
             }
 
@@ -149,7 +160,7 @@ Dialog {
                 text: qsTr("Enable native videoplayer")
                 enabled: settings.externalLink==0
                 checked: settings.enableVideoPlayer
-                description: "Sailbook " + qsTr("will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.")
+                description: qsTr("%1 will open Facebook and Youtube videos in his native videoplayer. If disabled, they will be opened in the external browser.").arg("Sailbook")
             }
 
             ComboBox {
@@ -170,7 +181,7 @@ Dialog {
                 icon.source: "../resources/images/icon-notifications.png"
                 icon.scale: Theme.iconSizeMedium/icon.width // Scale icons according to the screen sizes
                 checked: settings.enableNotifications
-                description: qsTr("Sailbook will send you notifications when you have a new message, a new notification or a friend request.")
+                description: qsTr("%1 will send you notifications when you have a new message, a new notification or a friend request.").arg("Sailbook")
             }
 
             ComboBox {

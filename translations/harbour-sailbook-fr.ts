@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1" language="fr">
 <context>
     <name>AboutPage</name>
     <message>
@@ -24,10 +24,6 @@
         <translation>Developeurs</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Faire un don par Paypal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Version</translation>
     </message>
@@ -47,6 +43,30 @@
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>est un logiciel gratuit publié sous GNU General Public License (GPL), version 3 ou ultérieure.</translation>
     </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traductions</translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation>Groupe Telegram dedié a Sailbook</translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation>Rudi Timmermans</translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation>Dylan Van Assche</translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation>Faire un don par Paypal</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -62,16 +82,16 @@
 <context>
     <name>FBWebview</name>
     <message>
-        <source>Back</source>
-        <translation>Retour</translation>
-    </message>
-    <message>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
         <source>Settings</source>
         <translation>Paramètres</translation>
+    </message>
+    <message>
+        <source>Back</source>
+        <translation>Retour</translation>
     </message>
     <message>
         <source>Facebook logout</source>
@@ -288,12 +308,51 @@
         <source>Show Facebook logout pulldown menu</source>
         <translation>Afficher le menu déroulant Facebook Logout</translation>
     </message>
+    <message>
+        <source>Ambience</source>
+        <translation>Ambiance</translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation>Facebook</translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation>Menu déroulant</translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation>Barre de menu</translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
         <translation>Connexion...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Plateforme de traduction</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Traducteurs</translation>
     </message>
 </context>
 <context>

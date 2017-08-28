@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="fi">
 <context>
     <name>AboutPage</name>
     <message>
@@ -24,10 +24,6 @@
         <translation>Kehittäjät</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Lahjoita Paypalilla</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Versio</translation>
     </message>
@@ -36,16 +32,40 @@
         <translation>Ikonit</translation>
     </message>
     <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Alain Molteni on tehnyt Sailbook ikonit.</translation>
-    </message>
-    <message>
         <source>Translators</source>
         <translation>Kääntäjät</translation>
     </message>
     <message>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation>Alain Molteni on tehnyt Sailbook ikonit.</translation>
+    </message>
+    <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>on vapaa ohjelmisto, joka on julkaistu GNU General Public Licence (GPL), versio 3 tai myöhemmän alla.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Käännökset</translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation>Telegram Sailbook Group</translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation>Rudi Timmermans</translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation>Dylan Van Assche</translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation>Lahjoita Paypalilla</translation>
     </message>
 </context>
 <context>
@@ -288,12 +308,51 @@
         <source>Show Facebook logout pulldown menu</source>
         <translation>Näytä Facebookin kirjautumis alasvetovalikko</translation>
     </message>
+    <message>
+        <source>Ambience</source>
+        <translation>Tunnelma</translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation>Facebook</translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation>Alasvetovalikko</translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation>Valikkopalkki</translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
         <translation>Yhdistetään...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Käännösalusta</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Kääntäjät</translation>
     </message>
 </context>
 <context>

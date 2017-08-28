@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl_NL">
+<TS version="2.1" language="nl">
 <context>
     <name>AboutPage</name>
     <message>
@@ -24,10 +24,6 @@
         <translation>Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation>Doneren met Paypal</translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation>Versie</translation>
     </message>
@@ -36,16 +32,40 @@
         <translation>Icons</translation>
     </message>
     <message>
-        <source>Sailbook icons made by Alain Molteni.</source>
-        <translation>Sailbook iconen gemaakt door Alain Molteni.</translation>
-    </message>
-    <message>
         <source>Translators</source>
         <translation>Vertalers</translation>
     </message>
     <message>
+        <source>Sailbook icons made by Alain Molteni.</source>
+        <translation>Sailbook iconen gemaakt door Alain Molteni.</translation>
+    </message>
+    <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
         <translation>is gratis software vrijgegeven onder de GNU General Public License (GPL), versie 3 of hoger.</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertaalwerk</translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation>Telegram Sailbook Groep</translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation>Rudi Timmermans</translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation>Dylan Van Assche</translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
+        <translation>Doneren met Paypal</translation>
     </message>
 </context>
 <context>
@@ -234,7 +254,7 @@
     </message>
     <message>
         <source>Back button in</source>
-        <translation>Back-knop in</translation>
+        <translation>Terug-knop in</translation>
     </message>
     <message>
         <source>Show Facebook feed button</source>
@@ -286,7 +306,35 @@
     </message>
     <message>
         <source>Show Facebook logout pulldown menu</source>
-        <translation>Toon Facebook logout pulldown menu</translation>
+        <translation>Facebook uitloggen in het menu weergeven</translation>
+    </message>
+    <message>
+        <source>Ambience</source>
+        <translation>Sfeer</translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation>Facebook</translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation>Menu</translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation>Menubalk</translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -294,6 +342,17 @@
     <message>
         <source>Connecting...</source>
         <translation>Verbinden maken...</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation>Vertaling Platform</translation>
+    </message>
+    <message>
+        <source>Translators</source>
+        <translation>Vertalers</translation>
     </message>
 </context>
 <context>

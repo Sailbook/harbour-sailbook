@@ -47,7 +47,7 @@ Item {
         anchors { fill: parent }
         experimental.preferences.javascriptEnabled: true
         experimental.preferences.navigatorQtObjectEnabled: true
-        experimental.userAgent: "Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) Qt/4.8.4 Safari/534.34"
+        experimental.userAgent: "Mozilla/5.0 (PlayStation 4 4.71) AppleWebKit/601.2 (KHTML, like Gecko)"
         experimental.userStyleSheet: Qt.resolvedUrl("../resources/css/sailbook.css")
         experimental.userScripts: Qt.resolvedUrl("../resources/js/sailbook.js")
         experimental.onMessageReceived: Messages.parse(message.data)
@@ -68,7 +68,8 @@ Item {
         onNavigationRequested: Media.detectImage(request) //When link is an image, cancel request and show our image viewer
         clip: true // Enforce painting inside our defined screen
         opacity: loading? 0.0: 1.0
-        url: "https://m.facebook.com"
+        url: "https://m.facebook.com/home.php?sk=" + Util.getFeedPriority(settings.priorityFeed)
+        onUrlChanged: console.log(url)
 
         Behavior on opacity { FadeAnimation {} }
 
@@ -93,9 +94,12 @@ Item {
                 color: Util.getPrimaryColor(settings.theme)
                 text: qsTr("Settings")
                 onClicked: {
+                    var oldUrl = webview.url
                     var settingsDialog = pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
                     settingsDialog.accepted.connect(function(){ // Refresh Javascript specific settings by reloading
-                        webview.reload()
+                        if(oldUrl == webview.url) { // Don't do this when url has been changed
+                            webview.reload()
+                        }
                     })
                 }
             }

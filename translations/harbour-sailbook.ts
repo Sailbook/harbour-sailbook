@@ -24,10 +24,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Version</source>
         <translation type="unfinished"></translation>
     </message>
@@ -45,6 +41,30 @@
     </message>
     <message>
         <source>is free software released under the GNU General Public License (GPL), version 3 or later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GitHub</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Telegram Sailbook Group</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rudi Timmermans</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dylan Van Assche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Donate with Paypal</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -288,11 +308,50 @@
         <source>Show Facebook logout pulldown menu</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Ambience</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Facebook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pulldown menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Menu bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Feed priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Most recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top stories</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Connecting...</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TranslationsPage</name>
+    <message>
+        <source>Translation Platform</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Translators</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

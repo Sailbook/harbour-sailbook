@@ -38,14 +38,18 @@ TRANSLATIONS += \
     translations/harbour-sailbook-fi.ts \
     translations/harbour-sailbook-nl.ts \
     translations/harbour-sailbook-it.ts \
+    translations/harbour-sailbook-es.ts \
+    translations/harbour-sailbook-pl.ts \
     translations/harbour-sailbook-fr.ts
 
 DISTFILES += \
     qml/resources/css/sailbook.css \
     qml/resources/js/sailbook.js \
     qml/pages/AboutPage.qml \
+    qml/pages/TranslationsPage.qml \
     qml/pages/TextLabel.qml \
     qml/pages/GlassButton.qml \
+    qml/pages/IconTextButton.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/js/util.js \
     qml/pages/NavigationButton.qml \
