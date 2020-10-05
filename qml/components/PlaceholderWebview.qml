@@ -11,7 +11,7 @@ Rectangle {
 
     property string note: ""
     property bool noProgress: note.length == 0
-    
+
     Image {
         anchors { fill: parent }
         source: "qrc:///images/icon-cover.svg"
@@ -28,21 +28,15 @@ Rectangle {
         }
         font.pixelSize: Theme.fontSizeExtraLarge
         text: note
+        color: "red"
         visible: text.length > 0
     }
 
-    ProgressBar {
+    BusyIndicator {
         id: progress
-        anchors {
-            left: parent.left
-            right: parent.right
-            bottom: parent.bottom
-        }
-        minimumValue: 0
-        maximumValue: 100
-        visible: note.length == 0
-        // Silica BUG: ProgressBar values set from outside it's object doesn't work
-        indeterminate: webview.loadProgress === 0
-        value: webview.loadProgress
+        anchors.centerIn: parent
+        running: true
+        size: BusyIndicatorSize.Large
     }
+
 }

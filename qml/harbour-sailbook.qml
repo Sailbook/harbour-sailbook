@@ -45,7 +45,7 @@ ApplicationWindow
 
     property variant notifications: [0,0,0,0,0,0,0,0,0]
     property string appName: "Sailbook"
-    property string version: "11.0-5"
+    property string version: "11.2"
     property string userAgentName
     property string userAgent
 
@@ -54,9 +54,9 @@ ApplicationWindow
         id: settings
         path: "/apps/harbour-sailbook/settings"
 
-        property bool notifyRequests: false
-        property bool notifyMessages: false
-        property bool notifyNotifications: false
+        property bool notifyRequests: true
+        property bool notifyMessages: true
+        property bool notifyNotifications: true
         property bool showFeed: true
         property bool showFriends: true
         property bool showMessages: true
@@ -71,7 +71,7 @@ ApplicationWindow
         property bool enableVideoPlayer: true
         property bool enableNightmode: false
         property int priorityFeed: 1
-        property int placeBack: 0
+        property int placeBack: 1
         property int theme: 0
         property int externalLink: 0
         property int videoQuality: 0
