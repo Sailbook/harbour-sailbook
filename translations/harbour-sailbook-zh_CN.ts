@@ -61,7 +61,7 @@
     </message>
     <message>
         <source>Donate with Paypal</source>
-        <translation>用贝宝（Paypal）捐赠</translation>
+        <translation>使用贝宝（Paypal）捐赠</translation>
     </message>
     <message>
         <source>Matthias Weiß</source>
