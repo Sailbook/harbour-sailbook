@@ -45,7 +45,9 @@ OTHER_FILES += qml/harbour-sailbook.qml \
     rpm/harbour-sailbook.spec \
     rpm/harbour-sailbook.yaml \
     translations/*.ts \
-    harbour-sailbook.desktop
+    harbour-sailbook.desktop \
+    .github/workflows/build.yml \
+    .gitignore
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 
